@@ -1,5 +1,7 @@
 # OmniVoice Studio
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MubeenAmjad205/omnivoice-studio/blob/main/notebooks/OmniVoice_Gradio.ipynb)
+
 This project is a clean, maintainable GitHub repository built around [OmniVoice](https://github.com/k2-fsa/OmniVoice). It transitions a simple Google Colab notebook into a proper local and Colab-ready Python project.
 
 ## Features
@@ -16,7 +18,7 @@ This project is a clean, maintainable GitHub repository built around [OmniVoice]
 
 1. **Clone the repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/MubeenAmjad205/omnivoice-studio.git
    cd omnivoice-studio
    ```
 
@@ -49,21 +51,11 @@ This project is a clean, maintainable GitHub repository built around [OmniVoice]
 
 ## Running in Google Colab
 
-Since you will be running this from a public repository, you can easily use it in Google Colab:
+The easiest way to run this project is by clicking the **Open in Colab** badge at the top of this page.
 
-1. Open a new [Google Colab Notebook](https://colab.research.google.com/).
-2. Go to **Runtime > Change runtime type** and select a **T4 GPU** (or better).
-3. Create a new code cell and run the following commands to clone the repo, install dependencies, and launch the app:
-
-```python
-!git clone https://github.com/MubeenAmjad205/omnivoice-studio.git
-%cd omnivoice-studio
-!pip install -r requirements.txt
-!python scripts/run_colab.py
-```
-*(Replace `<your-username>` with your actual GitHub username)*
-
-4. A public `xxxx.gradio.live` link will appear in the output. Click it to open your UI!
+1. Click [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MubeenAmjad205/omnivoice-studio/blob/main/notebooks/OmniVoice_Gradio.ipynb)
+2. In Colab, go to **Runtime > Change runtime type** and select a **T4 GPU** (or better).
+3. Run the single cell in the notebook. It will automatically clone the repository, install dependencies, and generate a public `xxxx.gradio.live` link for you!
 
 ## Pushing to GitHub
 
