@@ -56,7 +56,7 @@ Since you will be running this from a public repository, you can easily use it i
 3. Create a new code cell and run the following commands to clone the repo, install dependencies, and launch the app:
 
 ```python
-!git clone https://github.com/<your-username>/omnivoice-studio.git
+!git clone https://github.com/MubeenAmjad205/omnivoice-studio.git
 %cd omnivoice-studio
 !pip install -r requirements.txt
 !python scripts/run_colab.py
