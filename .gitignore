@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.gradio/
+
+# Model and outputs
+*.wav
+*.mp3
+*.flac
+outputs/
+models/
+checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
