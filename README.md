@@ -55,7 +55,8 @@ The easiest way to run this project is by clicking the **Open in Colab** badge a
 
 1. Click [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MubeenAmjad205/omnivoice-studio/blob/main/notebooks/OmniVoice_Gradio.ipynb)
 2. In Colab, go to **Runtime > Change runtime type** and select a **T4 GPU** (or better).
-3. Run the single cell in the notebook. It will automatically clone the repository, install dependencies, and generate a public `xxxx.gradio.live` link for you!
+3. **(Optional but Recommended)**: Click the 🔑 (Secrets) icon on the left sidebar in Colab, and add a new secret named `HF_TOKEN` containing your Hugging Face access token. This prevents rate limits and makes the model download much faster!
+4. Run the single cell in the notebook. It will automatically clone the repository, install dependencies, load your token, and generate a public `xxxx.gradio.live` link for you!
 
 ## Pushing to GitHub
 
